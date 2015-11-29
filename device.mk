@@ -361,6 +361,8 @@ endif
  
 # NTFS support
 PRODUCT_PACKAGES += \
+    exfat \
+    mkexfat \
     ntfs-3g
 
 PRODUCT_PACKAGES += \
