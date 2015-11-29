@@ -47,7 +47,7 @@ on post-fs-data
     setprop vold.post_fs_data_done 1
 
 on boot
-    setprop UserVolumeLabel "RockChips"
+    setprop UserVolumeLabel "Geekbox"
 
     # bluetooth
     # change back to bluetooth from system
