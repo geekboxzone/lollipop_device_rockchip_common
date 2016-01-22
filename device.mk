@@ -387,9 +387,6 @@ endif
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/whtest.sh:system/bin/whtest.sh
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/reboot2linux.sh:system/bin/reboot2linux.sh
-
 # for preinstall
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/preinstall_cleanup.sh:system/bin/preinstall_cleanup.sh
